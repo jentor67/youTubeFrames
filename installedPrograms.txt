@@ -1,0 +1,10 @@
+sudo yum -y install epel-release
+sudo yum -y localinstall --nogpgcheck https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
+sudo yum -y install ffmpeg
+sudo yum -y install ffmpeg-devel
+sudo yum -y install python36
+sudo yum -y install python36-devel
+
+sudo pip3 install ffmpeg-python
+sudo pip3 install pytube3
+
